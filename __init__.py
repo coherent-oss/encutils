@@ -60,6 +60,8 @@ import urllib.parse
 import urllib.request
 from email.message import Message
 
+__license__ = 'LGPL-3.0-or-later'
+
 
 class _MetaHTMLParser(html.parser.HTMLParser):
     """Parse given data for <meta http-equiv="content-type">."""
